@@ -1,0 +1,154 @@
+#!/usr/bin/sh
+##########################################################
+# /var/openssh/etc/ssh-ldap-wrapper
+# 
+# This script was created to connected to RedHat IDM server
+# also known as a freeipa server, for ssh certificate logins
+# to work.  This script will search the idm server for the
+# user name ($1) as passwd by sshd (AIX-toolbox sshd) 
+# and return the ssh rsa-key for the user, to be compared by
+# sshd for login.  If homedir doesn't exist it will create it.
+# However, that's only for LDAP accounts
+# 
+# Modification of this file is very bad and will stop ssh logins 
+# from happening, unless using in a different environment.
+# Otherwise modify the variables as needed.
+#
+# This is valid for AIX with sshd who has 
+# authorizedkeyscommand and no other OS.
+# Do not use on a different OS.
+#
+# This file was created:
+# By Aaron Cole
+#                                                                                                                    
+# Date:
+# 1/27/2017
+#
+# Change Log:                                                                                                        
+# 1/27/2017: V1 - Initial Creation
+# 7/5/2017:  V2 - Reworked entire script to Allow/deny 
+#            users by HBAC rules
+##########################################################
+#Exit if there is not an argument
+#argument = username
+
+if [ -z $1 ]; then
+	exit 2
+fi
+
+##Variables
+userdn="uid=myproxy,ou=profile,dc=myidm,dc=local"
+userpass="P@ssW0rdP@ssW0rd"
+hbacdn="cn=hbac,dc=myidm,dc=local"
+basedn="dc=myidm,dc=local"
+compdn="cn=computers,cn=accounts,dc=myidm,dc=local"
+hostgroupdn="cn=hostgroups,cn=accounts,dc=myidm,dc=local"
+usrgrpdn="cn=groups,cn=accounts,dc=myidm,dc=local"
+server="$(/usr/bin/nslookup -type=SRV _ldap._tcp.myidm.local | grep "^_ldap" | awk '{ print $7}' | sed s/.$// | sed -n 1p)"
+uid="$1"
+gid="$(lsuser -R LDAP -a pgrp $1 | cut -f 2 -d "=")"
+homedir="$(lsuser -R LDAP -a home $1 | cut -f 2 -d "=")"
+userdeny=0
+userallow=0
+allowrule=0
+
+##########################################################
+#Do not change below this
+##########################################################
+#Exit on bad usernames
+if ! expr "$uid" : '[a-zA-Z0-9._-]*$' 1>/dev/null; then
+# Debug only
+#	echo "ssh-ldap-wrapper err "bad characters in username: $uid" >> /var/adm/ssh-ldap-wrapper.log
+	exit 2
+fi
+
+for rule in $(/usr/bin/ldapsearch -b $hbacdn -x -h $server -D $userdn -w $userpass objectClass=ipahbacrule cn | egrep -v "^$|ipaUniqueID"); do 
+
+ if [ "$(/usr/bin/ldapsearch -b $hbacdn -B -x -h $server -D $userdn -w $userpass $rule | grep "ipaEnabledFlag" | cut -f 2 -d "=")" == "TRUE" ]; then 
+  #check servicecategory - all or ssh
+  if [ "$(/usr/bin/ldapsearch -b $hbacdn -B -x -h $server -D $userdn -w $userpass $rule | grep "serviceCategory" | cut -f 2 -d "=")" == "all" ] || [ -n "$(/usr/bin/ldapsearch -b $hbacdn -B -x -h $server -D $userdn -w $userpass $rule | grep "memberService" | grep sshd | cut -f 2 -d "=")" ]; then
+   
+   #Check if ruletype - allow or deny
+   if [ "$(/usr/bin/ldapsearch -b $hbacdn -B -x -h $server -D $userdn -w $userpass $rule | grep "accessRuleType" | cut -f 2 -d "=")" == "allow" ]; then     
+    allowrule=1
+   else
+    allowrule=0
+   fi
+    
+   #Check if rule applies to host - hostname hostgroup or all
+   #This is all
+   hostpass=0
+   if [ "$(/usr/bin/ldapsearch -b $hbacdn -B -x -h $server -D $userdn -w $userpass $rule | grep "hostCategory" | cut -f 2 -d "=")" == "all" ] ; then
+    hostpass=$(($hostpass+1))
+	#This is member host
+   else
+     temphostname=$(hostname)
+	 lowerhostname="$(echo $temphostname | tr '[A-Z]' '[a-z]')"
+	 underlowhostname="$(echo $lowerhostname | sed 's/_/-/')"
+	 for memberhostentry in $(/usr/bin/ldapsearch -b $hbacdn -B -x -h $server -D $userdn -w $userpass $rule | grep "memberHost"); do
+      if [ $hostpass == "0" ]; then
+	   case $memberhostentry in
+	    #hostname match
+		*$underlowhostname*) hostpass=$(($hostpass+1));;
+		
+		#non fqdn entries
+		memberHost=cn=*) testgroup="$(echo $memberhostentry | cut -f 1 -d "," | sed 's/^memberHost=//')"
+	                     for hostentry in $(/usr/bin/ldapsearch -b $hostgroupdn -x -h $server -D $userdn -w $userpass $testgroup | grep fqdn); do             
+						  if echo $hostentry | grep $underlowhostname >> /dev/null; then
+						   hostpass=$(($hostpass+1))
+						  fi
+						 done;;
+	   esac
+	  fi
+	 done
+	fi #End of member host rule
+	
+	#check member users
+	usercheck=0
+    if [ $hostpass -ge 1 ]; then
+	 if [ "$(/usr/bin/ldapsearch -b $hbacdn -B -x -h $server -D $userdn -w $userpass $rule | grep "userCategory" | cut -f 2 -d "=")" == "all" ] ; then
+	  usercheck=$(($usercheck+1))
+	  
+	#This is member usergroup
+	 else
+      for memberuserentry in $(/usr/bin/ldapsearch -b $hbacdn -B -x -h $server -D $userdn -w $userpass $rule | grep "memberUser"); do
+       if [ $usercheck -eq 0 ]; then
+	    case $memberuserentry in
+	     #hostname user
+		 *$uid*) usercheck=$(($usercheck+1));;
+		
+		 #non fqdn entries
+		 memberUser=cn=*) testgroup="$(echo $memberuserentry | cut -f 1 -d "," | sed 's/^memberUser=//')"
+	                     for userentry in $(/usr/bin/ldapsearch -b $usrgrpdn -x -h $server -D $userdn -w $userpass $testgroup | grep "^member="); do             
+						  if echo $userentry | grep $uid >> /dev/null; then
+						   usercheck=$(($usercheck+1))
+						  fi
+						 done;;
+	    esac
+	   fi
+	  done
+     fi # end of ech member users
+	fi # endo of hostcheck to drop in 
+   fi #End of Service category 
+ fi #Enabled
+ 
+ if [ "$allowrule" -eq 0 ] && [ "$usercheck" -eq 1 ]; then
+  userdeny=$(($userdeny+1))
+ fi
+ 
+ if [ "$allowrule" -eq 1 ] && [ "$usercheck" -eq 1 ]; then
+  userallow=$(($userallow+1))
+ fi
+done
+
+if [ "$userdeny" -le 0 ] && [ "$userallow" -ge 1 ]; then
+ #Make homedir if doesn't exist
+ if [ ! -d $homedir ]; then
+  umask 077
+  mkdir $homedir
+  #cp /etc/skel/.* $homedir
+  chown -R $uid:$gid $homedir
+ fi
+    keys="$(/usr/bin/ldapsearch -b $basedn -B -x -h $server -D $userdn -w $userpass "(&(uid=$uid)(ipaSshPubKey=*))" 'ipaSshPubKey' | grep ipaSshPubKey | cut -c 14- )"
+  echo "$keys"
+fi
