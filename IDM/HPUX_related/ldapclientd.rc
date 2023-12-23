@@ -1,0 +1,173 @@
+#! /sbin/sh
+#
+# /sbin/init.d/ldapclientd.rc
+#
+#        Copyright (C) 2000,2010 Hewlett-Packard Company
+#
+#
+# NOTE:    This script is not configurable!  Any changes made to this
+#          script will be overwritten when you upgrade to the next
+#          release of HP-UX.
+#
+# WARNING: Changing this script in any way may lead to a system that
+#          is unbootable.  Do not modify this script.
+#
+# startup and shutdown script for ldap client daemon
+#
+# Allowed exit values:
+#       0 = success; causes "OK" to show up in checklist.
+#       1 = failure; causes "FAIL" to show up in checklist.
+#       2 = skip; causes "N/A" to show up in the checklist.
+#           Use this value if execution of this script is overridden
+#           by the use of a control variable, or if this script is not
+#           appropriate to execute for some other reason.
+#
+# Input and output:
+#       stdin is redirected from /dev/null
+#
+#       stdout and stderr are redirected to the /etc/rc.log file
+#       during checklist mode, or to the console in raw mode.
+
+
+
+PATH=/usr/sbin:/usr/bin:/sbin
+export PATH
+
+# start-up script exit codes
+OKAY=0
+FAIL=1
+SKIP=2
+
+#local var for the script
+CLIENTPATH=/etc/opt/ldapux
+DAEMONNM=ldapclientd
+CONFFILE=$CLIENTPATH/ldapux_client.conf
+LDIFFILE=$CLIENTPATH/ldapux_profile.ldif
+DAEMONEXE=/opt/ldapux/bin/${DAEMONNM}
+DCONFFILE="/etc/opt/ldapux/ldapclientd.conf"
+DAEMONPIDFILE=$CLIENTPATH/${DAEMONNM}.pid
+
+#for ldapconfd daemon - which is started when ldapclientd is started
+LDAPCONFDNM=ldapconfd
+LDAPCONFDEXE=/opt/ldapux/bin/${LDAPCONFDNM}
+CONFDPIDFILE=/etc/opt/ldapux/${LDAPCONFDNM}.pid
+
+
+# make sure the script itself is executable
+test -x $0 || (echo "Cannot execute $0" && exit $FAIL)
+LDAPCLIENTDCONF=0
+
+retval=$OKAY        # default: success 
+
+case $1 in
+'start_msg')
+    echo "Start ldap client daemon"
+    ;;
+
+'stop_msg')
+    echo "Stop ldap client daemon"
+    ;;
+
+'start'|'restart'|'reload'|'force-reload')
+    rm /var/spool/ldapcltd/status /var/spool/ldapcltd/daemon
+    if [ -f $DCONFFILE ]; then
+        integer linenum
+        integer end
+        linenum=$(grep -in "^[[:space:]]*\[StartOnBoot\][[:space:]]*$" $DCONFFILE | cut -d":" -f 1 | line)
+        if (( linenum )); then
+          end=linenum+2
+          state=$(sed -n -e "$linenum,${end}p" $DCONFFILE | grep -i "^[[:space:]]*enable[[:space:]]*=" | line | cut -d"=" -f 2)
+          echo " yes 1 " | grep -iq " $state " 
+          if (( $? == 0 )) ; then
+            LDAPCLIENTDCONF=1
+          fi
+        else
+	  echo "WARNING: [StartOnBoot] key missing from $DCONFFILE"
+        fi
+    else
+        echo "INFO: $DCONFFILE defaults file MISSING"
+        exit $SKIP
+    fi
+
+    # start only after client setup is run
+    if [ "$LDAPCLIENTDCONF" -eq 1 ]; then
+        if [ -f $CONFFILE -a -f $LDIFFILE ]; then
+
+            if [ -f "$DAEMONPIDFILE" ]
+            then
+              if ( ps -p $(cat "$DAEMONPIDFILE") | grep -q "$DAEMONNM$" )
+              then
+                 $DAEMONEXE -k && echo "$DAEMONNM stopped with <$retval>"
+                 sleep 5
+              else 
+                 /usr/bin/rm -f "$DAEMONPIDFILE"
+              fi
+            fi
+
+            $DAEMONEXE
+            progret=$?
+            if [ $progret -ne 0 ]; then
+                echo "ERROR EXIT CODE from $DAEMONEXE: $progret"
+                retval=$FAIL
+            else
+                echo "$DAEMONNM started with <$retval>"
+            fi
+               
+            # the condition to start ldapconfd is the same as ldapclientd       
+
+            if [ -f "$CONFDPIDFILE" ]
+            then
+              if ( ps -p $(cat "$CONFDPIDFILE") | grep -q "$LDAPCONFDNM$" )
+              then
+                 /usr/bin/kill $(/usr/bin/cat "$CONFDPIDFILE") 
+                 echo "$LDAPCONFDNM stopped with <$?>"
+                 sleep 5
+              else
+                 /usr/bin/rm -f "$CONFDPIDFILE"
+              fi
+            fi
+
+            $LDAPCONFDEXE
+            progret=$?
+            if [ $progret -ne 0 ]; then
+                echo "ERROR EXIT CODE from $LDAPCONFDEXE: $progret"
+                retval=$FAIL
+            else
+                echo "$LDAPCONFDNM started with <$retval>"
+            fi
+        else
+       	    echo "WARNING: conf file ${CONFFILE}|${LDIFFILE} missing for $DAEMONEXE"
+            retval=$SKIP
+        fi
+    else
+        retval=$SKIP
+    fi
+    ;;
+
+'stop')
+    if [ -f "$DAEMONPIDFILE" ]
+      then
+      if ( ps -p $(cat "$DAEMONPIDFILE") | grep -q "$DAEMONNM$" )
+        then
+        $DAEMONEXE -k && echo "$DAEMONNM stopped with <$retval>"
+      fi
+    fi
+
+    if [ -f "$CONFDPIDFILE" ]
+      then
+      if ( ps -p $(cat "$CONFDPIDFILE") | grep -q "$LDAPCONFDNM$" )
+        then
+        /usr/bin/kill $(/usr/bin/cat "$CONFDPIDFILE") 
+        echo "$LDAPCONFDNM stopped with <$?>"
+      fi
+    fi
+    ;;
+
+*)
+    echo "usage: $0 {start|stop|start_msg|stop_msg}"
+    retval=$FAIL
+    ;;
+esac
+
+exit $retval
+

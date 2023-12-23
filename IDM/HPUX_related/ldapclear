@@ -1,0 +1,41 @@
+#! /sbin/sh
+#
+# /sbin/init.d/ldapclear
+#
+# This startup is to address and issue with
+# servers going down hard, and not clearing
+
+CLIENTPATH=/etc/opt/ldapux
+DAEMONNM=ldapclientd
+DAEMONPIDFILE=$CLIENTPATH/${DAEMONNM}.pid
+
+case $1 in
+'start_msg')
+    echo "Clearing ldap files"
+    ;;
+
+'stop_msg')
+        ;;
+
+'start')
+    if ( ! ps -p $(cat "$DAEMONPIDFILE") && ! grep -q "$DAEMONNM$" ); then
+    if [ -f /var/spool/ldapcltd/status ]; then
+     rm /var/spool/ldapcltd/status 
+     echo "Cleared /var/spool/ldapcltd/status"
+    fi
+    if [ -f /var/spool/ldapcltd/daemon ]; then
+     rm /var/spool/ldapcltd/daemon
+     echo "Cleared /var/spool/ldapcltd/daemon"
+    fi
+    fi
+    ;;
+    
+'stop')
+		;;    
+
+*) echo "Usage: ldapclear {start}"
+		;;
+
+esac
+exit $?
+
