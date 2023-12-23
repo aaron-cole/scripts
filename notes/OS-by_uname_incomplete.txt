@@ -1,0 +1,30 @@
+PLATFORM=`/bin/uname`
+case $PLATFORM in
+  Linux)
+    LOGGER="/usr/bin/logger"
+    if [ ! -f "$LOGGER" ];then
+    LOGGER="/bin/logger"
+    fi
+    LOGMSG="$LOGGER -puser.err"
+    LOGERR="$LOGGER -puser.alert"
+    SUBSYSFILE="/var/lock/subsys/ohasd"
+    CUT="/bin/cut"
+    MKDIR=/bin/mkdir
+    CHMOD=/bin/chmod
+    CHOWN=/bin/chown
+    ;;
+  HP-UX)
+    NAMEDPIPE=/tmp/.oracle/npohasd
+    ;;
+  SunOS)
+    ;;
+  AIX)
+    NAMEDPIPE=/tmp/.oracle/npohasd
+    ;;
+  OSF1)
+    ;;
+  *)
+    $ECHO "ERROR: Unknown Operating System"
+    exit -1
+    ;;
+esac
