@@ -1,0 +1,2018 @@
+xccdf_rhel.stig_group_gnome:
+  GroupId: xccdf_rhel.stig_group_gnome
+  GroupTitle: GNOME - GDM
+  GroupDescription: RHEL GNOME STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_gnome:
+      GroupId: xccdf_rhel.stig_group_rhel8_gnome
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 GNOME STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_rhel.stig.content_rule_SV-230226r1017045_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-230329r1017140_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-230347r1017160_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-230351r1017164_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-230352r1017165_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-230354r1017167_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-230530r1017290_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-244519r1017326_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-244535r1017342_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-244536r1017343_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-244538r1017345_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_rhel.stig.content_rule_SV-244539r1017346_rule
+        Platform: '#gdm'
+    xccdf_rhel.stig_group_rhel7_gnome:
+      GroupId: xccdf_rhel.stig_group_rhel7_gnome
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 GNOME STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204393r603261_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204394r603261_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204396r880746_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204397r853879_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204398r880770_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204399r880773_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204400r880776_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204402r880782_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204403r880785_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204404r880788_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204432r877377_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204433r877377_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204456r603261_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-214937r880767_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-219059r854002_rule
+        Platform: '#gdm'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-256969r902690_rule
+        Platform: '#gdm'
+xccdf_rhel.stig_group_selinux:
+  GroupId: xccdf_rhel.stig_group_selinux
+  GroupTitle: SELINUX
+  GroupDescription: RHEL SELINUX STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_selinux:
+      GroupId: xccdf_rhel.stig_group_rhel8_selinux
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: <GroupDescription></GroupDescription>
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230240r1017059_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230241r1017060_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230282r958944_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-254520r958726_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_selinux:
+      GroupId: xccdf_rhel.stig_group_rhel7_selinux
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: <GroupDescription></GroupDescription>
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204444r928571_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204453r942900_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204454r942903_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204479r853899_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-250312r928579_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-250313r942891_rule
+        Platform: ""
+xccdf_rhel.stig_group_sudoers:
+  GroupId: xccdf_rhel.stig_group_sudoers
+  GroupTitle: Sudoers
+  GroupDescription: RHEL Sudoers STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_sudoers:
+      GroupId: xccdf_rhel.stig_group_rhel8_sudoers
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Sudoers
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230271r1017379_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230272r1017380_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-237641r1017324_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-237642r991589_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-237643r1017325_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251711r1017365_rule
+        Platform: '#sudoers-includedir'
+    xccdf_rhel.stig_group_rhel7_sudoers:
+      GroupId: xccdf_rhel.stig_group_rhel7_sudoers
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Suoders
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204429r861003_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204430r853885_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-237633r646850_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-237634r880755_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-237635r861075_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-250314r928582_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251703r833183_rule
+        Platform: '#sudoers-includedir'
+xccdf_rhel.stig_group_sysctl:
+  GroupId: xccdf_rhel.stig_group_sysctl
+  GroupTitle: Sysctl
+  GroupDescription: RHEL Sysctl STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_sysctl:
+      GroupId: xccdf_rhel.stig_group_rhel8_sysctl
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Sysctl
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230266r1017084_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230267r1017085_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230268r1017086_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230269r1017087_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230270r1017088_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230280r1017093_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230311r1017121_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230535r1017297_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230536r1017298_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230537r1017299_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230538r1017300_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230539r1017301_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230540r1017302_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230541r1017303_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230542r1017304_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230543r1017305_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230544r1017306_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230545r1017307_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230546r1017308_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230547r1017309_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230548r1017310_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230549r1017311_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244550r1017350_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244551r1017351_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244552r1017352_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244553r1017353_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244554r1017354_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-250317r1017358_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_sysctl:
+      GroupId: xccdf_rhel.stig_group_rhel7_sysctl
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Sysctl
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204584r880794_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204609r880797_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204610r880800_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204611r880803_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204612r880806_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204613r880809_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204614r880812_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204615r880815_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204616r880818_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204617r880821_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204625r880824_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204630r880827_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-255927r880791_rule
+        Platform: ""
+xccdf_rhel.stig_group_uefi:
+  GroupId: xccdf_rhel.stig_group_uefi
+  GroupTitle: UEFI
+  GroupDescription: RHEL UEFI STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_uefi:
+      GroupId: xccdf_rhel.stig_group_rhel8_uefi
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 UEFI
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230234r1017053_rule
+        Platform: '#uefi'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244521r1017327_rule
+        Platform: '#uefi'
+    xccdf_rhel.stig_group_rhel7_uefi:
+      GroupId: xccdf_rhel.stig_group_rhel7_uefi
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 UEFI
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204440r744098_rule
+        Platform: '#uefi'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244558r833187_rule
+        Platform: '#uefi'
+xccdf_rhel.stig_group_non-uefi:
+  GroupId: xccdf_rhel.stig_group_non-uefi
+  GroupTitle: BIOS/Non-UEFI
+  GroupDescription: RHEL BIOS/Non-UEFI STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_non-uefi:
+      GroupId: xccdf_rhel.stig_group_rhel8_non-uefi
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 BIOS
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230235r1017054_rule
+        Platform: '#non-uefi'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244522r1017328_rule
+        Platform: '#non-uefi'
+    xccdf_rhel.stig_group_rhel7_non-uefi:
+      GroupId: xccdf_rhel.stig_group_rhel7_non-uefi
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 BIOS
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204438r744095_rule
+        Platform: '#non-uefi'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244557r833185_rule
+        Platform: '#non-uefi'
+xccdf_rhel.stig_group_mountpoints:
+  GroupId: xccdf_rhel.stig_group_mountpoints
+  GroupTitle: Mount Points
+  GroupDescription: RHEL Mount Point STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_mountpoints:
+      GroupId: xccdf_rhel.stig_group_rhel8_mountpoints
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Mount Points
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230292r1017103_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230293r1017104_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230294r1017105_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230295r1017106_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230299r1017109_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230300r1017110_rule
+        Platform: '#non-uefi'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230301r1017111_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230302r1017112_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230303r1017113_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230304r1017114_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230305r1017115_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230306r1017116_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230307r1017117_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230308r1017118_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230328r1017139_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230508r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230509r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230510r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230511r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230512r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230513r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230514r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230515r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230516r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230517r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230518r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230519r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230520r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230521r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230522r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244529r1017336_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244530r1017337_rule
+        Platform: '#uefi'
+    xccdf_rhel.stig_group_rhel7_mountpoints:
+      GroupId: xccdf_rhel.stig_group_rhel7_mountpoints
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Mount Points
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204480r603838_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204481r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204482r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204483r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204486r853900_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204493r603840_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204494r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204495r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204496r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204626r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_modprobe:
+  GroupId: xccdf_rhel.stig_group_modprobe
+  GroupTitle: ModProbe STIGs
+  GroupDescription: RHEL Modprobe STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_modprobe:
+      GroupId: xccdf_rhel.stig_group_rhel8_modprobe
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Modprobe
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230493r1017276_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230494r1017277_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230495r1017278_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230496r1017279_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230497r1017280_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230498r1017281_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230499r1017282_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230503r1017285_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230507r1017287_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_modprobe:
+      GroupId: xccdf_rhel.stig_group_rhel7_modprobe
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Modprobe
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204449r942894_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204450r942897_rule
+        Platform: ""
+xccdf_rhel.stig_group_aide:
+  GroupId: xccdf_rhel.stig_group_aide
+  GroupTitle: AIDE/Tripwire
+  GroupDescription: RHEL AIDE/Tripwire STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_aide:
+      GroupId: xccdf_rhel.stig_group_rhel8_aide
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 AIDE/Tripwire
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230263r1017083_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230475r1017266_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230551r1017313_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230552r1017314_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251710r958944_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-256974r1017374_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_aide:
+      GroupId: xccdf_rhel.stig_group_rhel7_aide
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 AIDE/Tripwire
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204445r902698_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204446r902701_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204498r880856_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204499r880858_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204500r880860_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251705r880854_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-256970r902696_rule
+        Platform: ""
+xccdf_rhel.stig_group_audit:
+  GroupId: xccdf_rhel.stig_group_audit
+  GroupTitle: Audit and Configuration
+  GroupDescription: RHEL Audit Configuration STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_audit:
+      GroupId: xccdf_rhel.stig_group_rhel8_audit
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Audit Configuration
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230388r1017196_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230390r1017198_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230392r1017199_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230393r1017200_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230394r958754_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230395r1017201_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230396r1017202_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230397r1017203_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230398r1017204_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230399r1017205_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230400r1017206_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230401r1017207_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230411r1017217_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230471r1017262_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230472r1017263_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230473r1017264_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230474r1017265_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230476r958752_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230480r958754_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230483r971542_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244542r1017348_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244543r971542_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_audit:
+      GroupId: xccdf_rhel.stig_group_rhel7_audit
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Audit Configuration
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204503r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204506r877390_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204507r877390_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204508r877390_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204509r877390_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204510r877390_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204511r877390_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204512r877390_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204513r877389_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204514r877389_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204515r877389_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-228564r606407_rule
+        Platform: ""
+xccdf_rhel.stig_group_auditrules:
+  GroupId: xccdf_rhel.stig_group_auditrules
+  GroupTitle: Audit Rules
+  GroupDescription: RHEL Audit Rules STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_auditrules:
+      GroupId: xccdf_rhel.stig_group_rhel8_auditrules
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Audit Rules
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230386r958730_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230402r1017208_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230403r1017209_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230404r1017210_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230405r1017211_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230406r1017212_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230407r1017213_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230408r1017214_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230409r1017215_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230410r1017216_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230412r1017218_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230413r1017219_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230418r1017220_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230419r1017221_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230421r1017222_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230422r1017223_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230423r1017224_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230424r1017225_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230425r1017226_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230426r1017227_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230427r1017228_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230428r1017229_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230429r1017230_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230430r1017231_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230431r1017232_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230432r1017233_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230433r1017234_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230434r1017235_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230435r1017236_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230436r1017237_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230437r1017238_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230438r1017241_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230439r1017243_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230444r1017244_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230446r1017245_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230447r1017246_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230448r1017247_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230449r1017249_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230455r1017251_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230456r1017253_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230462r1017254_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230463r1017255_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230464r1017256_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230465r1017257_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230466r1017258_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230467r1017259_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_auditrules:
+      GroupId: xccdf_rhel.stig_group_rhel7_auditrules
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Audit Rules
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204504r880761_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204516r853914_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204517r809570_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204521r809772_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204524r809775_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204531r853917_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204536r861014_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204537r861017_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204538r861020_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204539r861023_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204540r853930_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204541r853931_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204542r861026_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204543r861029_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204544r861032_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204545r861035_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204546r861038_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204547r861041_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204548r861044_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204549r853953_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204550r861047_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204551r861050_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204552r861053_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204553r861056_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204554r861059_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204555r861062_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204556r861065_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204557r861068_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204558r833166_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204559r833169_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204560r833172_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204562r833175_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204563r858498_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204564r853978_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204565r853979_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204566r853980_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204567r853981_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204568r853982_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204572r853985_rule
+        Platform: ""
+xccdf_rhel.stig_group_logindefs:
+  GroupId: xccdf_rhel.stig_group_logindefs
+  GroupTitle: /etc/login.defs STIGs
+  GroupDescription: /etc/login.defs STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_logindefs:
+      GroupId: xccdf_rhel.stig_group_rhel8_logindefs
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 /etc/login.defs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230231r1017050_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230233r1017052_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230324r1017135_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230365r1017177_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230366r1017178_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230370r1017182_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230378r1017189_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230383r1017192_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_logindefs:
+      GroupId: xccdf_rhel.stig_group_rhel7_logindefs
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 /etc/login.defs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204416r877397_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204418r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204420r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204431r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204457r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204466r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_tftp-server:
+  GroupId: xccdf_rhel.stig_group_tftp-server
+  GroupTitle: TFTP Server STIGs
+  GroupDescription: RHEL TFTP Server STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_tftp-server:
+      GroupId: xccdf_rhel.stig_group_rhel8_tftp-server
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 TFTP Server STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230533r1017295_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230557r1017319_rule
+        Platform: '#tftp-server'
+    xccdf_rhel.stig_group_rhel7_tftp-server:
+      GroupId: xccdf_rhel.stig_group_rhel7_tftp-server
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 TFTP Server STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204621r853996_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204623r603261_rule
+        Platform: '#tftp-server'
+xccdf_rhel.stig_group_kerberos:
+  GroupId: xccdf_rhel.stig_group_kerberos
+  GroupTitle: Kerberos Related STIGs
+  GroupDescription: RHEL Kerberos Related STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_kerberos:
+      GroupId: xccdf_rhel.stig_group_rhel8_kerberos
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Kerberos Related STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230238r1017057_rule
+        Platform: '#krb5_server_older_than_1_17-18_and_krb5_workstation_older_than_1_17-18'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230239r1017058_rule
+        Platform: '#krb5_workstation_older_than_1_17-18'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-237640r1017323_rule
+        Platform: '#krb5_server_older_than_1_17-18'
+    xccdf_rhel.stig_group_rhel7_kerberos:
+      GroupId: xccdf_rhel.stig_group_rhel7_kerberos
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Kerberos Related STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId: 
+xccdf_rhel.stig_group_usbguard:
+  GroupId: xccdf_rhel.stig_group_usbguard
+  GroupTitle: USBGuard STIGs
+  GroupDescription: RHEL USBGuard Related STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_usbguard:
+      GroupId: xccdf_rhel.stig_group_rhel8_usbguard
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 USBGuard Related STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230470r1017261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230524r1014813_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244547r1014811_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244548r1014815_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_usbguard:
+      GroupId: xccdf_rhel.stig_group_rhel7_usbguard
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 USBGuard Related STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId: 
+xccdf_rhel.stig_group_pwqualityconf:
+  GroupId: xccdf_rhel.stig_group_pwqualityconf
+  GroupTitle: /etc/security/pwquality.conf STIGs
+  GroupDescription: RHEL pwquality.conf STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_pwqualityconf:
+      GroupId: xccdf_rhel.stig_group_rhel8_pwqualityconf
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 pwquality.conf STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230357r1017169_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230358r1017170_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230359r1017171_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230360r1017172_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230361r1017173_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230362r1017174_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230363r1017175_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230369r1017181_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230375r1017187_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230377r1017188_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251716r1017369_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_pwqualityconf:
+      GroupId: xccdf_rhel.stig_group_rhel7_pwqualityconf
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 pwquality.conf STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204407r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204408r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204409r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204410r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204411r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204412r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204413r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204414r809186_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204423r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_firewalld:
+  GroupId: xccdf_rhel.stig_group_firewalld
+  GroupTitle: Firewalld STIGs
+  GroupDescription: RHEL Firewalld STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_firewalld:
+      GroupId: xccdf_rhel.stig_group_rhel8_firewalld
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Firewalld STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230500r1017283_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230504r958672_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230505r958672_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230525r958902_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244544r958672_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_firewalld:
+      GroupId: xccdf_rhel.stig_group_rhel7_firewalld
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Firewalld STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204577r861069_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204604r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204628r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_ntp:
+  GroupId: xccdf_rhel.stig_group_ntp
+  GroupTitle: NTP STIGs
+  GroupDescription: RHEL NTP STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_ntp:
+      GroupId: xccdf_rhel.stig_group_rhel8_ntp
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 NTP STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230484r1017382_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230485r1017269_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230486r1017270_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_ntp:
+      GroupId: xccdf_rhel.stig_group_rhel7_ntp
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 NTP STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204603r877038_rule
+        Platform: ""
+xccdf_rhel.stig_group_grub:
+  GroupId: xccdf_rhel.stig_group_grub
+  GroupTitle: Grub STIGs
+  GroupDescription: RHEL Grub STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_grub:
+      GroupId: xccdf_rhel.stig_group_rhel8_grub
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Grub STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230223r1017042_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230277r1017090_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230278r1017091_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230279r1017092_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230468r1017260_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230469r958752_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230491r1017274_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_grub:
+      GroupId: xccdf_rhel.stig_group_rhel7_grub
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Grub STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204497r877398_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204501r928576_rule
+        Platform: ""
+xccdf_rhel.stig_group_postfix:
+  GroupId: xccdf_rhel.stig_group_postfix
+  GroupTitle: Postfix STIGs
+  GroupDescription: RHEL Postfix STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_postfix:
+      GroupId: xccdf_rhel.stig_group_rhel8_postfix
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Postfix STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230550r1017312_rule
+        Platform: '#postfix'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230389r1017197_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_postfix:
+      GroupId: xccdf_rhel.stig_group_rhel7_postfix
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Postfix STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204619r603261_rule
+        Platform: '#postfix'
+xccdf_rhel.stig_group_removedpkgs:
+  GroupId: xccdf_rhel.stig_group_removedpkgs
+  GroupTitle: Removed Package STIGs
+  GroupDescription: RHEL Removed Package STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_removedpkgs:
+      GroupId: xccdf_rhel.stig_group_rhel8_removedpkgs
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Removed Package STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230487r1017271_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230488r1017272_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230489r1017273_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230492r1017275_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230553r1017315_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230558r1017320_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230559r1014820_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230560r1017321_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230561r1017322_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251718r1017371_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_removedpkgs:
+      GroupId: xccdf_rhel.stig_group_rhel7_removedpkgs
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Removed Package STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204442r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204443r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204502r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204620r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204624r646847_rule
+        Platform: ""
+xccdf_rhel.stig_group_banner:
+  GroupId: xccdf_rhel.stig_group_banner
+  GroupTitle: Banner STIGs
+  GroupDescription: RHEL Banner STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_banner:
+      GroupId: xccdf_rhel.stig_group_rhel8_banner
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Banner STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-230227r1017046_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_banner:
+      GroupId: xccdf_rhel.stig_group_rhel7_banner
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Banner STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204395r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_ssh:
+  GroupId: xccdf_rhel.stig_group_ssh
+  GroupTitle: SSH STIGs
+  GroupDescription: RHEL SSH STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_sshd_config:
+      GroupId: xccdf_rhel.stig_group_rhel8_sshd_config
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 SSH STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230225r1017044_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230244r1017062_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230251r1017069_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230252r1017070_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230253r1017071_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230283r1017094_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230284r1017095_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230286r1017097_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230287r1017098_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230288r1017099_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230290r1017100_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230291r1017102_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230296r1017107_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230330r1017141_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230380r1017191_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230382r991589_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230526r958908_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230527r1017288_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230555r1017317_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230556r1017318_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244525r1017331_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244526r1017332_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244528r1017335_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244549r958908_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-255924r1017372_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_ssh:
+      GroupId: xccdf_rhel.stig_group_rhel7_ssh
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 SSH STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204425r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204434r877377_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204435r877377_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204578r877398_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204580r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204585r916422_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204586r916422_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204587r917833_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204588r603261_rule
+        Platform: '#rhel7.0-7.3'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204589r917836_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204590r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204591r858477_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204592r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204593r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204594r877396_rule
+        Platform: '#rhel7.0-7.3'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204595r877394_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204596r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204597r880743_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204598r853993_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204599r853994_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204600r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204601r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204602r880758_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204606r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204607r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204622r603849_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-233307r603301_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-255925r880749_rule
+        Platform: ""
+xccdf_rhel.stig_group_nics:
+  GroupId: xccdf_rhel.stig_group_nics
+  GroupTitle: Network Adapter STIGs
+  GroupDescription: RHEL Network Adapter STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_nics:
+      GroupId: xccdf_rhel.stig_group_rhel8_nics
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Network Adapter STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230506r1017286_rule
+        Platform: '#wifi-iface'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230554r1017316_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_nics:
+      GroupId: xccdf_rhel.stig_group_rhel7_nics
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Network Adapter STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204634r877465_rule
+        Platform: '#wifi-iface'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204618r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_dns:
+  GroupId: xccdf_rhel.stig_group_dns
+  GroupTitle: DNS STIGs
+  GroupDescription: RHEL DNS STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_dns:
+      GroupId: xccdf_rhel.stig_group_rhel8_dns
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 DNS STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-230316r1017127_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_dns:
+      GroupId: xccdf_rhel.stig_group_rhel7_dns
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 DNS STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204608r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_syslog:
+  GroupId: xccdf_rhel.stig_group_syslog
+  GroupTitle: Syslog STIGs
+  GroupDescription: RHEL Rsyslog STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_syslog:
+      GroupId: xccdf_rhel.stig_group_rhel8_syslog
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Syslog STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230228r1017047_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230245r1017063_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230246r1017064_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230247r1017065_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230248r1017066_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230249r1017067_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230250r1017068_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230298r1017108_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230387r1017195_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230477r1017267_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230478r1017268_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230479r958754_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230481r958754_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230482r958754_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_syslog:
+      GroupId: xccdf_rhel.stig_group_rhel7_syslog
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Syslog STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204489r744109_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204574r917830_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204575r853986_rule
+        Platform: ""
+xccdf_rhel.stig_group_fapolicyd:
+  GroupId: xccdf_rhel.stig_group_fapolicyd
+  GroupTitle: Fapolicyd STIGs
+  GroupDescription: RHEL Fapolicyd STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_fapolicyd:
+      GroupId: xccdf_rhel.stig_group_rhel8_fapolicyd
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Fapolicyd STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230523r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244545r958804_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244546r1017349_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_fapolicyd:
+      GroupId: xccdf_rhel.stig_group_rhel7_fapolicyd
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Fapolicyd STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId: 
+xccdf_rhel.stig_group_rngd:
+  GroupId: xccdf_rhel.stig_group_rngd
+  GroupTitle: RNGD STIGs
+  GroupDescription: RHEL RNGD STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_rngd:
+      GroupId: xccdf_rhel.stig_group_rhel8_rngd
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 RNGD STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230285r1017096_rule
+        Platform: '#rhel8.0-3_or_no_fips'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244527r1017333_rule
+        Platform: '#rhel8.0-3_or_no_fips'
+    xccdf_rhel.stig_group_rhel7_rngd:
+      GroupId: xccdf_rhel.stig_group_rhel7_rngd
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 RNGD STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId: 
+xccdf_rhel.stig_group_yum:
+  GroupId: xccdf_rhel.stig_group_yum
+  GroupTitle: Yum STIGs
+  GroupDescription: RHEL Yum STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_yum:
+      GroupId: xccdf_rhel.stig_group_rhel8_yum
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Yum STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230222r1017041_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230264r1017377_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230265r1017378_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230281r958936_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-256973r1017373_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_yum:
+      GroupId: xccdf_rhel.stig_group_rhel7_yum
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Yum STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204447r877463_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204448r877463_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204452r853894_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204459r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-256968r902687_rule
+        Platform: ""
+xccdf_rhel.stig_group_tmux:
+  GroupId: xccdf_rhel.stig_group_tmux
+  GroupTitle: TMUX STIGs
+  GroupDescription: RHEL TMUX STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_tmux:
+      GroupId: xccdf_rhel.stig_group_rhel8_tmux
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 TMUX STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId: 
+    xccdf_rhel.stig_group_rhel7_tmux:
+      GroupId: xccdf_rhel.stig_group_rhel7_tmux
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 TMUX STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-255926r880779_rule
+        Platform: ""
+xccdf_rhel.stig_group_mfa:
+  GroupId: xccdf_rhel.stig_group_mfa
+  GroupTitle: MFA STIGs
+  GroupDescription: RHEL MFA STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_mfa:
+      GroupId: xccdf_rhel.stig_group_rhel8_mfa
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 SSSD STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230229r1017048_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230273r1017381_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230274r1017089_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230275r958816_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230355r1017168_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230372r1017184_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230376r958828_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_mfa:
+      GroupId: xccdf_rhel.stig_group_rhel7_mfa
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 MFA STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204441r818813_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204581r942906_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204582r942909_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204583r942912_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204631r853997_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204632r853998_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204633r853999_rule
+        Platform: ""
+xccdf_rhel.stig_group_autofs:
+  GroupId: xccdf_rhel.stig_group_autofs
+  GroupTitle: Autofs STIGs
+  GroupDescription: RHEL Autofs STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_autofs:
+      GroupId: xccdf_rhel.stig_group_rhel8_autofs
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Autofs STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-230502r1017284_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_autofs:
+      GroupId: xccdf_rhel.stig_group_rhel7_autofs
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Autofs STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204451r853893_rule
+        Platform: ""
+xccdf_rhel.stig_group_osvers:
+  GroupId: xccdf_rhel.stig_group_osvers
+  GroupTitle: OS Version STIGs
+  GroupDescription: RHEL OS Version STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_osvers:
+      GroupId: xccdf_rhel.stig_group_rhel8_osvers
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 OS Version STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230221r1017040_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230276r958928_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_osvers:
+      GroupId: xccdf_rhel.stig_group_rhel7_osvers
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 OS Version STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204458r744100_rule
+        Platform: ""
+xccdf_rhel.stig_group_mcafee:
+  GroupId: xccdf_rhel.stig_group_mcafee
+  GroupTitle: McAfee STIGs
+  GroupDescription: RHEL McAfee STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_mcafee:
+      GroupId: xccdf_rhel.stig_group_rhel8_mcafee
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 McAfee STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId: 
+    xccdf_rhel.stig_group_rhel7_mcafee:
+      GroupId: xccdf_rhel.stig_group_rhel7_mcafee
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 McAfee STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-214800r942888_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-214801r854324_rule
+        Platform: ""
+xccdf_rhel.stig_group_limitsconf:
+  GroupId: xccdf_rhel.stig_group_limitsconf
+  GroupTitle: /etc/security/limits.conf STIGs
+  GroupDescription: RHEL /etc/security/limits.conf STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_limitsconf:
+      GroupId: xccdf_rhel.stig_group_rhel8_limitsconf
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 /etc/security/limits.conf STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230313r1017124_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230346r1017159_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_limitsconf:
+      GroupId: xccdf_rhel.stig_group_rhel7_limitsconf
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 /etc/security/limits.conf STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204576r877399_rule
+        Platform: ""
+xccdf_rhel.stig_group_pam:
+  GroupId: xccdf_rhel.stig_group_pam
+  GroupTitle: PAM STIGs
+  GroupDescription: RHEL PAM STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_pam:
+      GroupId: xccdf_rhel.stig_group_rhel8_pam
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 PAM STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230237r1017056_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230332r1017144_rule
+        Platform: '#rhel8.0_8.1'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230333r1017145_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230334r1017146_rule
+        Platform: '#rhel8.0_8.1'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230335r1017147_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230336r1017148_rule
+        Platform: '#rhel8.0_8.1'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230337r1017149_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230338r1017150_rule
+        Platform: '#rhel8.0_8.1'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230339r1017151_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230340r1017152_rule
+        Platform: '#rhel8.0_8.1'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230341r1017153_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230342r1017154_rule
+        Platform: '#rhel8.0_8.1'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230343r1017155_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230344r1017156_rule
+        Platform: '#rhel8.0_8.1'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230345r1017157_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230356r982195_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230381r991589_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244524r1017330_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244533r1017340_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244534r1017341_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-268322r1017568_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244541r1017347_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-250315r1017356_rule
+        Platform: '#rhel8.2_or_higher'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-250316r1017357_rule
+        Platform: '#rhel8.0_8.1'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251712r1017383_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251713r1017366_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251714r1017367_rule
+        Platform: '#rhel8.0-3'
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251715r1017368_rule
+        Platform: '#rhel8.0-3'
+    xccdf_rhel.stig_group_rhel7_pam:
+      GroupId: xccdf_rhel.stig_group_rhel7_pam
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 PAM STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204405r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204406r902704_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204415r917816_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204422r917818_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204424r880839_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204427r880842_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204428r880845_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204605r858478_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251704r854012_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-255928r917838_rule
+        Platform: ""
+xccdf_rhel.stig_group_coredumps:
+  GroupId: xccdf_rhel.stig_group_coredumps
+  GroupTitle: CoreDump STIGs
+  GroupDescription: RHEL CoreDump STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_coredumps:
+      GroupId: xccdf_rhel.stig_group_rhel8_coredumps
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 CoreDump STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230310r1017120_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230312r1017122_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230314r1017125_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230315r1017126_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_coredumps:
+      GroupId: xccdf_rhel.stig_group_rhel7_coredumps
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 CoreDump STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204492r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_ctrl-alt-del:
+  GroupId: xccdf_rhel.stig_group_ctrl-alt-del
+  GroupTitle: Ctrl-Alt-Delete STIGs
+  GroupDescription: RHEL Ctrl-Alt-Delete STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_ctrl-alt-del:
+      GroupId: xccdf_rhel.stig_group_rhel8_ctrl-alt-del
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Ctrl-Alt-Delete STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230529r1017289_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230531r1017292_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_ctrl-alt-del:
+      GroupId: xccdf_rhel.stig_group_rhel7_ctrl-alt-del
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Ctrl-Alt-Delete STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204455r928574_rule
+        Platform: ""
+xccdf_rhel.stig_group_opensslcrypto:
+  GroupId: xccdf_rhel.stig_group_opensslcrypto
+  GroupTitle: OpenSSL Crypto Policy STIGs
+  GroupDescription: RHEL OpenSSL Crypto Policy STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_opensslcrypto:
+      GroupId: xccdf_rhel.stig_group_rhel8_opensslcrypto
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 OpenSSL Crypto Policy STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230254r1017072_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230255r1017075_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_opensslcrypto:
+      GroupId: xccdf_rhel.stig_group_rhel7_opensslcrypto
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 OpenSSL Crypto Policy STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId: 
+xccdf_rhel.stig_group_gnutlscrypto:
+  GroupId: xccdf_rhel.stig_group_gnutlscrypto
+  GroupTitle: GnuTLS Crypto Policy STIGs
+  GroupDescription: RHEL GnuTLS Crypto Policy STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_gnutlscrypto:
+      GroupId: xccdf_rhel.stig_group_rhel8_gnutlscrypto
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 GnuTLS Crypto Policy STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-230256r1017076_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_gnutlscrypto:
+      GroupId: xccdf_rhel.stig_group_rhel7_gnutlscrypto
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 GnuTLS Crypto Policy STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId: 
+xccdf_rhel.stig_group_libperms:
+  GroupId: xccdf_rhel.stig_group_libperms
+  GroupTitle: Library Perms STIGs
+  GroupDescription: RHEL Library Perms STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_libperms:
+      GroupId: xccdf_rhel.stig_group_rhel8_libperms
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Library Perms STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230260r1017080_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230261r1017081_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230262r1017082_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251707r1017360_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251708r1017362_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251709r1017364_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_libperms:
+      GroupId: xccdf_rhel.stig_group_rhel7_libperms
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Library Perms STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId: 
+xccdf_rhel.stig_group_etcshadow:
+  GroupId: xccdf_rhel.stig_group_etcshadow
+  GroupTitle: /etc/shadow STIGs
+  GroupDescription: RHEL /etc/shadow STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_etcshadow:
+      GroupId: xccdf_rhel.stig_group_rhel8_etcshadow
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 /etc/shadow STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230232r1017051_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230364r1017176_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230367r1017179_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251706r1017359_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_etcshadow:
+      GroupId: xccdf_rhel.stig_group_rhel7_etcshadow
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 /etc/shadow STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204419r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204421r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-251702r809220_rule
+        Platform: ""
+xccdf_rhel.stig_group_worldwriteable:
+  GroupId: xccdf_rhel.stig_group_worldwriteable
+  GroupTitle: World Writeable STIGs
+  GroupDescription: RHEL World Writeable STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_worldwriteable:
+      GroupId: xccdf_rhel.stig_group_rhel8_worldwriteable
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 World Writeable STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230243r1017061_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230318r1017129_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230319r1017130_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_worldwriteable:
+      GroupId: xccdf_rhel.stig_group_rhel7_worldwriteable
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 World Writeable STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204487r744106_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-228563r744119_rule
+        Platform: ""
+xccdf_rhel.stig_group_homedir:
+  GroupId: xccdf_rhel.stig_group_homedir
+  GroupTitle: Home Directory STIGs
+  GroupDescription: RHEL Home Directory STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_homedir:
+      GroupId: xccdf_rhel.stig_group_rhel8_homedir
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Home Directory STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230309r1017119_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230317r1017128_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230320r1017131_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230321r1017132_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230322r1017133_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230323r1017134_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230325r1017136_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230384r1017193_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244531r1017338_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244532r1017339_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_homedir:
+      GroupId: xccdf_rhel.stig_group_rhel7_homedir
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Home Directory STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204467r603826_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204468r603828_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204469r603830_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204470r880764_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204471r744105_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204472r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204473r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204474r917821_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204475r917824_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204476r917827_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204477r792828_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204478r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204488r861006_rule
+        Platform: ""
+xccdf_rhel.stig_group_systemd:
+  GroupId: xccdf_rhel.stig_group_systemd
+  GroupTitle: Systemd STIGs
+  GroupDescription: RHEL Systemd STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_systemd:
+      GroupId: xccdf_rhel.stig_group_rhel8_systemd
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Systemd STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230236r1017055_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230532r1017294_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-244523r1017329_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-257258r1017375_rule
+        Platform: '#rhel8.7_or_higher'
+    xccdf_rhel.stig_group_rhel7_systemd:
+      GroupId: xccdf_rhel.stig_group_rhel7_systemd
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Systemd STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+        RuleId: xccdf_mil.disa.stig_rule_SV-204437r603261_rule
+        Platform: ""
+xccdf_rhel.stig_group_otherperms:
+  GroupId: xccdf_rhel.stig_group_otherperms
+  GroupTitle: Other File STIGs
+  GroupDescription: RHEL Other Perms STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_otherperms:
+      GroupId: xccdf_rhel.stig_group_rhel8_otherperms
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Other File STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230257r1017077_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230258r1017078_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230259r1017079_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230326r1017137_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230327r1017138_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_otherperms:
+      GroupId: xccdf_rhel.stig_group_rhel7_otherperms
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Other File STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204392r880752_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204463r853897_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204464r853898_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204490r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204491r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204579r861070_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204627r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204629r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-214799r854001_rule
+        Platform: ""
+xccdf_rhel.stig_group_otheraccount:
+  GroupId: xccdf_rhel.stig_group_otheraccount
+  GroupTitle: Other Account STIGs
+  GroupDescription: RHEL Other Account STIGs
+  SubgroupIds:
+    xccdf_rhel.stig_group_rhel8_otheraccount:
+      GroupId: xccdf_rhel.stig_group_rhel8_otheraccount
+      SubgroupTitle: RHEL 8
+      SubgroupDescription: RHEL 8 Other Account STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:8
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230331r1017143_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230371r1017183_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230373r1017185_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230374r1017186_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230379r1017190_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230385r1017194_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-230534r1017296_rule
+        Platform: ""
+    xccdf_rhel.stig_group_rhel7_otheraccount:
+      GroupId: xccdf_rhel.stig_group_rhel7_otheraccount
+      SubgroupTitle: RHEL 7
+      SubgroupDescription: RHEL 7 Other Account STIGs
+      subgroupPlatform: cpe:/o:redhat:enterprise_linux:7
+      RuleId:
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204417r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204426r928568_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204460r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204461r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-204462r603261_rule
+        Platform: ""
+      - RuleId: xccdf_mil.disa.stig_rule_SV-254523r903130_rule
+        Platform: ""
+

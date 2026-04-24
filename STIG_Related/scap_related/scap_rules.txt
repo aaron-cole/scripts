@@ -1,0 +1,1460 @@
+Rule ID: xccdf_rhel.stig.content_rule_SV-230226r1017045_rule
+Version: RHEL-08-010050
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-230329r1017140_rule
+Version: RHEL-08-010820
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-230347r1017160_rule
+Version: RHEL-08-020030
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-230351r1017164_rule
+Version: RHEL-08-020050
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-230352r1017165_rule
+Version: RHEL-08-020060
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-230354r1017167_rule
+Version: RHEL-08-020080
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-230530r1017290_rule
+Version: RHEL-08-040171
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-244519r1017326_rule
+Version: RHEL-08-010049
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-244535r1017342_rule
+Version: RHEL-08-020031
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-244536r1017343_rule
+Version: RHEL-08-020032
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-244538r1017345_rule
+Version: RHEL-08-020081
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_rhel.stig.content_rule_SV-244539r1017346_rule
+Version: RHEL-08-020082
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230240r1017059_rule
+Version: RHEL-08-010170
+oval_def: 100
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230241r1017060_rule
+Version: RHEL-08-010171
+oval_def: 101
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230282r958944_rule
+Version: RHEL-08-010450
+oval_def: 102
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-254520r958726_rule
+Version: RHEL-08-040400
+oval_def: def_replaceme
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230271r1017379_rule
+Version: RHEL-08-010380
+oval_def: 120
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230272r1017380_rule
+Version: RHEL-08-010381
+oval_def: 122
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-237641r1017324_rule
+Version: RHEL-08-010382
+oval_def: 124
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-237642r991589_rule
+Version: RHEL-08-010383
+oval_def: 126
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-237643r1017325_rule
+Version: RHEL-08-010384
+oval_def: 132
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251711r1017365_rule
+Version: RHEL-08-010379
+oval_def: 135
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230266r1017084_rule
+Version: RHEL-08-010372
+oval_def: 160
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230267r1017085_rule
+Version: RHEL-08-010373
+oval_def: 162
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230268r1017086_rule
+Version: RHEL-08-010374
+oval_def: 164
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230269r1017087_rule
+Version: RHEL-08-010375
+oval_def: 166
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230270r1017088_rule
+Version: RHEL-08-010376
+oval_def: 168
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230280r1017093_rule
+Version: RHEL-08-010430
+oval_def: 170
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230311r1017121_rule
+Version: RHEL-08-010671
+oval_def: 172
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230535r1017297_rule
+Version: RHEL-08-040210
+oval_def: 174
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230536r1017298_rule
+Version: RHEL-08-040220
+oval_def: 176
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230537r1017299_rule
+Version: RHEL-08-040230
+oval_def: 178
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230538r1017300_rule
+Version: RHEL-08-040240
+oval_def: 180
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230539r1017301_rule
+Version: RHEL-08-040250
+oval_def: 182
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230540r1017302_rule
+Version: RHEL-08-040260
+oval_def: 184
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230541r1017303_rule
+Version: RHEL-08-040261
+oval_def: 186
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230542r1017304_rule
+Version: RHEL-08-040262
+oval_def: 188
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230543r1017305_rule
+Version: RHEL-08-040270
+oval_def: 190
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230544r1017306_rule
+Version: RHEL-08-040280
+oval_def: 192
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230545r1017307_rule
+Version: RHEL-08-040281
+oval_def: 194
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230546r1017308_rule
+Version: RHEL-08-040282
+oval_def: 196
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230547r1017309_rule
+Version: RHEL-08-040283
+oval_def: 198
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230548r1017310_rule
+Version: RHEL-08-040284
+oval_def: 200
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230549r1017311_rule
+Version: RHEL-08-040285
+oval_def: 202
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244550r1017350_rule
+Version: RHEL-08-040209
+oval_def: 204
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244551r1017351_rule
+Version: RHEL-08-040239
+oval_def: 206
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244552r1017352_rule
+Version: RHEL-08-040249
+oval_def: 208
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244553r1017353_rule
+Version: RHEL-08-040279
+oval_def: 210
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244554r1017354_rule
+Version: RHEL-08-040286
+oval_def: 212
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-250317r1017358_rule
+Version: RHEL-08-040259
+oval_def: 214
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230234r1017053_rule
+Version: RHEL-08-010140
+oval_def: 250
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244521r1017327_rule
+Version: RHEL-08-010141
+oval_def: 253
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230235r1017054_rule
+Version: RHEL-08-010150
+oval_def: 254
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244522r1017328_rule
+Version: RHEL-08-010149
+oval_def: 257
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230292r1017103_rule
+Version: RHEL-08-010540
+oval_def: 300
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230293r1017104_rule
+Version: RHEL-08-010541
+oval_def: 302
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230294r1017105_rule
+Version: RHEL-08-010542
+oval_def: 304
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230295r1017106_rule
+Version: RHEL-08-010543
+oval_def: 307
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230299r1017109_rule
+Version: RHEL-08-010570
+oval_def: 309
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230300r1017110_rule
+Version: RHEL-08-010571
+oval_def: 311
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230301r1017111_rule
+Version: RHEL-08-010580
+oval_def: 313
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230302r1017112_rule
+Version: RHEL-08-010590
+oval_def: 315
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230303r1017113_rule
+Version: RHEL-08-010600
+oval_def: 320
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230304r1017114_rule
+Version: RHEL-08-010610
+oval_def: 322
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230305r1017115_rule
+Version: RHEL-08-010620
+oval_def: 324
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230306r1017116_rule
+Version: RHEL-08-010630
+oval_def: 326
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230307r1017117_rule
+Version: RHEL-08-010640
+oval_def: 328
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230308r1017118_rule
+Version: RHEL-08-010650
+oval_def: 330
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230328r1017139_rule
+Version: RHEL-08-010800
+oval_def: 332
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230508r958804_rule
+Version: RHEL-08-040120
+oval_def: 334
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230509r958804_rule
+Version: RHEL-08-040121
+oval_def: 336
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230510r958804_rule
+Version: RHEL-08-040122
+oval_def: 338
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230511r958804_rule
+Version: RHEL-08-040123
+oval_def: 340
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230512r958804_rule
+Version: RHEL-08-040124
+oval_def: 342
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230513r958804_rule
+Version: RHEL-08-040125
+oval_def: 344
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230514r958804_rule
+Version: RHEL-08-040126
+oval_def: 346
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230515r958804_rule
+Version: RHEL-08-040127
+oval_def: 348
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230516r958804_rule
+Version: RHEL-08-040128
+oval_def: 350
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230517r958804_rule
+Version: RHEL-08-040129
+oval_def: 352
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230518r958804_rule
+Version: RHEL-08-040130
+oval_def: 354
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230519r958804_rule
+Version: RHEL-08-040131
+oval_def: 356
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230520r958804_rule
+Version: RHEL-08-040132
+oval_def: 358
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230521r958804_rule
+Version: RHEL-08-040133
+oval_def: 360
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230522r958804_rule
+Version: RHEL-08-040134
+oval_def: 362
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244529r1017336_rule
+Version: RHEL-08-010544
+oval_def: 364
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244530r1017337_rule
+Version: RHEL-08-010572
+oval_def: 366
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230493r1017276_rule
+Version: RHEL-08-040020
+oval_def: 400
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230494r1017277_rule
+Version: RHEL-08-040021
+oval_def: 402
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230495r1017278_rule
+Version: RHEL-08-040022
+oval_def: 404
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230496r1017279_rule
+Version: RHEL-08-040023
+oval_def: 406
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230497r1017280_rule
+Version: RHEL-08-040024
+oval_def: 408
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230498r1017281_rule
+Version: RHEL-08-040025
+oval_def: 410
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230499r1017282_rule
+Version: RHEL-08-040026
+oval_def: 412
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230503r1017285_rule
+Version: RHEL-08-040080
+oval_def: 414
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230507r1017287_rule
+Version: RHEL-08-040111
+oval_def: 416
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230263r1017083_rule
+Version: RHEL-08-010360
+oval_def: 500
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230475r1017266_rule
+Version: RHEL-08-030650
+oval_def: 511
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230551r1017313_rule
+Version: RHEL-08-040300
+oval_def: 519
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230552r1017314_rule
+Version: RHEL-08-040310
+oval_def: 520
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251710r958944_rule
+Version: RHEL-08-010359
+oval_def: 521
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-256974r1017374_rule
+Version: RHEL-08-010358
+oval_def: 524
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230388r1017196_rule
+Version: RHEL-08-030020
+oval_def: 610
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230390r1017198_rule
+Version: RHEL-08-030040
+oval_def: 611
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230392r1017199_rule
+Version: RHEL-08-030060
+oval_def: 612
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230393r1017200_rule
+Version: RHEL-08-030061
+oval_def: 613
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230394r958754_rule
+Version: RHEL-08-030062
+oval_def: 614
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230395r1017201_rule
+Version: RHEL-08-030063
+oval_def: 615
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230396r1017202_rule
+Version: RHEL-08-030070
+oval_def: 616
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230397r1017203_rule
+Version: RHEL-08-030080
+oval_def: 617
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230398r1017204_rule
+Version: RHEL-08-030090
+oval_def: 618
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230399r1017205_rule
+Version: RHEL-08-030100
+oval_def: 619
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230400r1017206_rule
+Version: RHEL-08-030110
+oval_def: 620
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230401r1017207_rule
+Version: RHEL-08-030120
+oval_def: 621
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230411r1017217_rule
+Version: RHEL-08-030180
+oval_def: 600
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230471r1017262_rule
+Version: RHEL-08-030610
+oval_def: 622
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230472r1017263_rule
+Version: RHEL-08-030620
+oval_def: 624
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230473r1017264_rule
+Version: RHEL-08-030630
+oval_def: 625
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230474r1017265_rule
+Version: RHEL-08-030640
+oval_def: 626
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230476r958752_rule
+Version: RHEL-08-030660
+oval_def: 627
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230480r958754_rule
+Version: RHEL-08-030700
+oval_def: 628
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230483r971542_rule
+Version: RHEL-08-030730
+oval_def: 629
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244542r1017348_rule
+Version: RHEL-08-030181
+oval_def: 630
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244543r971542_rule
+Version: RHEL-08-030731
+oval_def: 633
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230386r958730_rule
+Version: RHEL-08-030000
+oval_def: 700
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230402r1017208_rule
+Version: RHEL-08-030121
+oval_def: 704
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230403r1017209_rule
+Version: RHEL-08-030122
+oval_def: 705
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230404r1017210_rule
+Version: RHEL-08-030130
+oval_def: 706
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230405r1017211_rule
+Version: RHEL-08-030140
+oval_def: 707
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230406r1017212_rule
+Version: RHEL-08-030150
+oval_def: 708
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230407r1017213_rule
+Version: RHEL-08-030160
+oval_def: 709
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230408r1017214_rule
+Version: RHEL-08-030170
+oval_def: 710
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230409r1017215_rule
+Version: RHEL-08-030171
+oval_def: 711
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230410r1017216_rule
+Version: RHEL-08-030172
+oval_def: 712
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230412r1017218_rule
+Version: RHEL-08-030190
+oval_def: 713
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230413r1017219_rule
+Version: RHEL-08-030200
+oval_def: 714
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230418r1017220_rule
+Version: RHEL-08-030250
+oval_def: 738
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230419r1017221_rule
+Version: RHEL-08-030260
+oval_def: 739
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230421r1017222_rule
+Version: RHEL-08-030280
+oval_def: 740
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230422r1017223_rule
+Version: RHEL-08-030290
+oval_def: 741
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230423r1017224_rule
+Version: RHEL-08-030300
+oval_def: 742
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230424r1017225_rule
+Version: RHEL-08-030301
+oval_def: 743
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230425r1017226_rule
+Version: RHEL-08-030302
+oval_def: 744
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230426r1017227_rule
+Version: RHEL-08-030310
+oval_def: 746
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230427r1017228_rule
+Version: RHEL-08-030311
+oval_def: 747
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230428r1017229_rule
+Version: RHEL-08-030312
+oval_def: 748
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230429r1017230_rule
+Version: RHEL-08-030313
+oval_def: 749
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230430r1017231_rule
+Version: RHEL-08-030314
+oval_def: 750
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230431r1017232_rule
+Version: RHEL-08-030315
+oval_def: 751
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230432r1017233_rule
+Version: RHEL-08-030316
+oval_def: 752
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230433r1017234_rule
+Version: RHEL-08-030317
+oval_def: 753
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230434r1017235_rule
+Version: RHEL-08-030320
+oval_def: 754
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230435r1017236_rule
+Version: RHEL-08-030330
+oval_def: 755
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230436r1017237_rule
+Version: RHEL-08-030340
+oval_def: 756
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230437r1017238_rule
+Version: RHEL-08-030350
+oval_def: 757
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230438r1017241_rule
+Version: RHEL-08-030360
+oval_def: 758
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230439r1017243_rule
+Version: RHEL-08-030361
+oval_def: 762
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230444r1017244_rule
+Version: RHEL-08-030370
+oval_def: 772
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230446r1017245_rule
+Version: RHEL-08-030390
+oval_def: 773
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230447r1017246_rule
+Version: RHEL-08-030400
+oval_def: 775
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230448r1017247_rule
+Version: RHEL-08-030410
+oval_def: 776
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230449r1017249_rule
+Version: RHEL-08-030420
+oval_def: 777
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230455r1017251_rule
+Version: RHEL-08-030480
+oval_def: 801
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230456r1017253_rule
+Version: RHEL-08-030490
+oval_def: 809
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230462r1017254_rule
+Version: RHEL-08-030550
+oval_def: 815
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230463r1017255_rule
+Version: RHEL-08-030560
+oval_def: 816
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230464r1017256_rule
+Version: RHEL-08-030570
+oval_def: 817
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230465r1017257_rule
+Version: RHEL-08-030580
+oval_def: 818
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230466r1017258_rule
+Version: RHEL-08-030590
+oval_def: 819
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230467r1017259_rule
+Version: RHEL-08-030600
+oval_def: 820
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230231r1017050_rule
+Version: RHEL-08-010110
+oval_def: 900
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230233r1017052_rule
+Version: RHEL-08-010130
+oval_def: 901
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230324r1017135_rule
+Version: RHEL-08-010760
+oval_def: 903
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230365r1017177_rule
+Version: RHEL-08-020190
+oval_def: 904
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230366r1017178_rule
+Version: RHEL-08-020200
+oval_def: 905
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230370r1017182_rule
+Version: RHEL-08-020231
+oval_def: 906
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230378r1017189_rule
+Version: RHEL-08-020310
+oval_def: 907
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230383r1017192_rule
+Version: RHEL-08-020351
+oval_def: 908
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230533r1017295_rule
+Version: RHEL-08-040190
+oval_def: 1000
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230557r1017319_rule
+Version: RHEL-08-040350
+oval_def: 1001
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230238r1017057_rule
+Version: RHEL-08-010161
+oval_def: 1020
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230239r1017058_rule
+Version: RHEL-08-010162
+oval_def: 1021
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-237640r1017323_rule
+Version: RHEL-08-010163
+oval_def: 1022
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230470r1017261_rule
+Version: RHEL-08-030603
+oval_def: 1040
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230524r1014813_rule
+Version: RHEL-08-040140
+oval_def: 1041
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244547r1014811_rule
+Version: RHEL-08-040139
+oval_def: 1042
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244548r1014815_rule
+Version: RHEL-08-040141
+oval_def: 1043
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230357r1017169_rule
+Version: RHEL-08-020110
+oval_def: 1100
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230358r1017170_rule
+Version: RHEL-08-020120
+oval_def: 1103
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230359r1017171_rule
+Version: RHEL-08-020130
+oval_def: 1106
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230360r1017172_rule
+Version: RHEL-08-020140
+oval_def: 1109
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230361r1017173_rule
+Version: RHEL-08-020150
+oval_def: 1112
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230362r1017174_rule
+Version: RHEL-08-020160
+oval_def: 1115
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230363r1017175_rule
+Version: RHEL-08-020170
+oval_def: 1118
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230369r1017181_rule
+Version: RHEL-08-020230
+oval_def: 1121
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230375r1017187_rule
+Version: RHEL-08-020280
+oval_def: 1124
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230377r1017188_rule
+Version: RHEL-08-020300
+oval_def: 1127
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251716r1017369_rule
+Version: RHEL-08-020104
+oval_def: 1130
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230500r1017283_rule
+Version: RHEL-08-040030
+oval_def: 1200
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230504r958672_rule
+Version: RHEL-08-040090
+oval_def: 1201
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230505r958672_rule
+Version: RHEL-08-040100
+oval_def: 1202
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230525r958902_rule
+Version: RHEL-08-040150
+oval_def: 1203
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244544r958672_rule
+Version: RHEL-08-040101
+oval_def: 1204
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230484r1017382_rule
+Version: RHEL-08-030740
+oval_def: 1256
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230485r1017269_rule
+Version: RHEL-08-030741
+oval_def: 1258
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230486r1017270_rule
+Version: RHEL-08-030742
+oval_def: 1259
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230223r1017042_rule
+Version: RHEL-08-010020
+oval_def: 1302
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230277r1017090_rule
+Version: RHEL-08-010421
+oval_def: 1304
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230278r1017091_rule
+Version: RHEL-08-010422
+oval_def: 1308
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230279r1017092_rule
+Version: RHEL-08-010423
+oval_def: 1312
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230468r1017260_rule
+Version: RHEL-08-030601
+oval_def: 1316
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230469r958752_rule
+Version: RHEL-08-030602
+oval_def: 1320
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230491r1017274_rule
+Version: RHEL-08-040004
+oval_def: 1324
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230550r1017312_rule
+Version: RHEL-08-040290
+oval_def: 1400
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230389r1017197_rule
+Version: RHEL-08-030030
+oval_def: 1402
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230487r1017271_rule
+Version: RHEL-08-040000
+oval_def: 1450
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230488r1017272_rule
+Version: RHEL-08-040001
+oval_def: 1451
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230489r1017273_rule
+Version: RHEL-08-040002
+oval_def: 1452
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230492r1017275_rule
+Version: RHEL-08-040010
+oval_def: 1453
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230553r1017315_rule
+Version: RHEL-08-040320
+oval_def: 1454
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230558r1017320_rule
+Version: RHEL-08-040360
+oval_def: 1458
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230559r1014820_rule
+Version: RHEL-08-040370
+oval_def: 1459
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230560r1017321_rule
+Version: RHEL-08-040380
+oval_def: 1460
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230561r1017322_rule
+Version: RHEL-08-040390
+oval_def: 1461
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251718r1017371_rule
+Version: RHEL-08-040321
+oval_def: 1462
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230227r1017046_rule
+Version: RHEL-08-010060
+oval_def: 1500
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230225r1017044_rule
+Version: RHEL-08-010040
+oval_def: 1501
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230244r1017062_rule
+Version: RHEL-08-010200
+oval_def: 1502
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230251r1017069_rule
+Version: RHEL-08-010290
+oval_def: 1503
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230252r1017070_rule
+Version: RHEL-08-010291
+oval_def: 1504
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230253r1017071_rule
+Version: RHEL-08-010292
+oval_def: 1505
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230283r1017094_rule
+Version: RHEL-08-010460
+oval_def: 1506
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230284r1017095_rule
+Version: RHEL-08-010470
+oval_def: 1507
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230286r1017097_rule
+Version: RHEL-08-010480
+oval_def: 1508
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230287r1017098_rule
+Version: RHEL-08-010490
+oval_def: 1509
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230288r1017099_rule
+Version: RHEL-08-010500
+oval_def: 1510
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230290r1017100_rule
+Version: RHEL-08-010520
+oval_def: 1512
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230291r1017102_rule
+Version: RHEL-08-010521
+oval_def: 1513
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230296r1017107_rule
+Version: RHEL-08-010550
+oval_def: 1514
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230330r1017141_rule
+Version: RHEL-08-010830
+oval_def: 1515
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230380r1017191_rule
+Version: RHEL-08-020330
+oval_def: 1516
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230382r991589_rule
+Version: RHEL-08-020350
+oval_def: 1517
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230526r958908_rule
+Version: RHEL-08-040160
+oval_def: 1518
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230527r1017288_rule
+Version: RHEL-08-040161
+oval_def: 1520
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230555r1017317_rule
+Version: RHEL-08-040340
+oval_def: 1521
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230556r1017318_rule
+Version: RHEL-08-040341
+oval_def: 1522
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244525r1017331_rule
+Version: RHEL-08-010201
+oval_def: 1523
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244526r1017332_rule
+Version: RHEL-08-010287
+oval_def: 1524
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244528r1017335_rule
+Version: RHEL-08-010522
+oval_def: 1525
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244549r958908_rule
+Version: RHEL-08-040159
+oval_def: 1526
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-255924r1017372_rule
+Version: RHEL-08-040342
+oval_def: 1527
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230506r1017286_rule
+Version: RHEL-08-040110
+oval_def: 1600
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230554r1017316_rule
+Version: RHEL-08-040330
+oval_def: 1601
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230316r1017127_rule
+Version: RHEL-08-010680
+oval_def: 1700
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230228r1017047_rule
+Version: RHEL-08-010070
+oval_def: 1800
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230245r1017063_rule
+Version: RHEL-08-010210
+oval_def: 1803
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230246r1017064_rule
+Version: RHEL-08-010220
+oval_def: 1804
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230247r1017065_rule
+Version: RHEL-08-010230
+oval_def: 1805
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230248r1017066_rule
+Version: RHEL-08-010240
+oval_def: 1806
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230249r1017067_rule
+Version: RHEL-08-010250
+oval_def: 1807
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230250r1017068_rule
+Version: RHEL-08-010260
+oval_def: 1808
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230298r1017108_rule
+Version: RHEL-08-010561
+oval_def: 1809
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230387r1017195_rule
+Version: RHEL-08-030010
+oval_def: 1811
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230477r1017267_rule
+Version: RHEL-08-030670
+oval_def: 1813
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230478r1017268_rule
+Version: RHEL-08-030680
+oval_def: 1814
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230479r958754_rule
+Version: RHEL-08-030690
+oval_def: 1815
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230481r958754_rule
+Version: RHEL-08-030710
+oval_def: 1819
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230482r958754_rule
+Version: RHEL-08-030720
+oval_def: 1821
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230523r958804_rule
+Version: RHEL-08-040135
+oval_def: 1900
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244545r958804_rule
+Version: RHEL-08-040136
+oval_def: 1901
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244546r1017349_rule
+Version: RHEL-08-040137
+oval_def: 1903
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230285r1017096_rule
+Version: RHEL-08-010471
+oval_def: 1950
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244527r1017333_rule
+Version: RHEL-08-010472
+oval_def: 1952
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230222r1017041_rule
+Version: RHEL-08-010010
+oval_def: 2000
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230264r1017377_rule
+Version: RHEL-08-010370
+oval_def: 2002
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230265r1017378_rule
+Version: RHEL-08-010371
+oval_def: 2004
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230281r958936_rule
+Version: RHEL-08-010440
+oval_def: 2005
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-256973r1017373_rule
+Version: RHEL-08-010019
+oval_def: 2011
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230229r1017048_rule
+Version: RHEL-08-010090
+oval_def: 2100
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230273r1017381_rule
+Version: RHEL-08-010390
+oval_def: 2101
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230274r1017089_rule
+Version: RHEL-08-010400
+oval_def: 2102
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230275r958816_rule
+Version: RHEL-08-010410
+oval_def: 2126
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230355r1017168_rule
+Version: RHEL-08-020090
+oval_def: 2103
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230372r1017184_rule
+Version: RHEL-08-020250
+oval_def: 2108
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230376r958828_rule
+Version: RHEL-08-020290
+oval_def: 2111
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230502r1017284_rule
+Version: RHEL-08-040070
+oval_def: 2200
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230221r1017040_rule
+Version: RHEL-08-010000
+oval_def: 2250
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230276r958928_rule
+Version: RHEL-08-010420
+oval_def: 2252
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230313r1017124_rule
+Version: RHEL-08-010673
+oval_def: 2350
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230346r1017159_rule
+Version: RHEL-08-020024
+oval_def: 2356
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230237r1017056_rule
+Version: RHEL-08-010160
+oval_def: 2400
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230332r1017144_rule
+Version: RHEL-08-020010
+oval_def: 2401
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230333r1017145_rule
+Version: RHEL-08-020011
+oval_def: 2407
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230334r1017146_rule
+Version: RHEL-08-020012
+oval_def: 2408
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230335r1017147_rule
+Version: RHEL-08-020013
+oval_def: 2410
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230336r1017148_rule
+Version: RHEL-08-020014
+oval_def: 2411
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230337r1017149_rule
+Version: RHEL-08-020015
+oval_def: 2415
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230338r1017150_rule
+Version: RHEL-08-020016
+oval_def: 2416
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230339r1017151_rule
+Version: RHEL-08-020017
+oval_def: 2420
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230340r1017152_rule
+Version: RHEL-08-020018
+oval_def: 2421
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230341r1017153_rule
+Version: RHEL-08-020019
+oval_def: 2423
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230342r1017154_rule
+Version: RHEL-08-020020
+oval_def: 2424
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230343r1017155_rule
+Version: RHEL-08-020021
+oval_def: 2426
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230344r1017156_rule
+Version: RHEL-08-020022
+oval_def: 2427
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230345r1017157_rule
+Version: RHEL-08-020023
+oval_def: 2429
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230356r982195_rule
+Version: RHEL-08-020100
+oval_def: 2430
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230381r991589_rule
+Version: RHEL-08-020340
+oval_def: 2432
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244524r1017330_rule
+Version: RHEL-08-010159
+oval_def: 2434
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244533r1017340_rule
+Version: RHEL-08-020025
+oval_def: 2435
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244534r1017341_rule
+Version: RHEL-08-020026
+oval_def: 2438
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-268322r1017568_rule
+Version: RHEL-08-020331
+oval_def: 2441
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244541r1017347_rule
+Version: RHEL-08-020332
+oval_def: 2442
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-250315r1017356_rule
+Version: RHEL-08-020027
+oval_def: 2443
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-250316r1017357_rule
+Version: RHEL-08-020028
+oval_def: 2443
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251712r1017383_rule
+Version: RHEL-08-010385
+oval_def: 2444
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251713r1017366_rule
+Version: RHEL-08-020101
+oval_def: 2445
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251714r1017367_rule
+Version: RHEL-08-020102
+oval_def: 2446
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251715r1017368_rule
+Version: RHEL-08-020103
+oval_def: 2447
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230310r1017120_rule
+Version: RHEL-08-010670
+oval_def: 2500
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230312r1017122_rule
+Version: RHEL-08-010672
+oval_def: 2502
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230314r1017125_rule
+Version: RHEL-08-010674
+oval_def: 2504
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230315r1017126_rule
+Version: RHEL-08-010675
+oval_def: 2505
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230529r1017289_rule
+Version: RHEL-08-040170
+oval_def: 2550
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230531r1017292_rule
+Version: RHEL-08-040172
+oval_def: 2551
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230254r1017072_rule
+Version: RHEL-08-010293
+oval_def: 2600
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230255r1017075_rule
+Version: RHEL-08-010294
+oval_def: 2601
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230256r1017076_rule
+Version: RHEL-08-010295
+oval_def: 2620
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230260r1017080_rule
+Version: RHEL-08-010330
+oval_def: 2700
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230261r1017081_rule
+Version: RHEL-08-010340
+oval_def: 2704
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230262r1017082_rule
+Version: RHEL-08-010350
+oval_def: 2708
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251707r1017360_rule
+Version: RHEL-08-010331
+oval_def: 2712
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251708r1017362_rule
+Version: RHEL-08-010341
+oval_def: 2716
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251709r1017364_rule
+Version: RHEL-08-010351
+oval_def: 2720
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230232r1017051_rule
+Version: RHEL-08-010120
+oval_def: 2800
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230364r1017176_rule
+Version: RHEL-08-020180
+oval_def: 2802
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230367r1017179_rule
+Version: RHEL-08-020210
+oval_def: 2806
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-251706r1017359_rule
+Version: RHEL-08-010121
+oval_def: 2810
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230243r1017061_rule
+Version: RHEL-08-010190
+oval_def: 2850
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230318r1017129_rule
+Version: RHEL-08-010700
+oval_def: 2851
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230319r1017130_rule
+Version: RHEL-08-010710
+oval_def: 2852
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230309r1017119_rule
+Version: RHEL-08-010660
+oval_def: 2900
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230317r1017128_rule
+Version: RHEL-08-010690
+oval_def: 2903
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230320r1017131_rule
+Version: RHEL-08-010720
+oval_def: 2905
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230321r1017132_rule
+Version: RHEL-08-010730
+oval_def: 2907
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230322r1017133_rule
+Version: RHEL-08-010740
+oval_def: 2910
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230323r1017134_rule
+Version: RHEL-08-010750
+oval_def: 2911
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230325r1017136_rule
+Version: RHEL-08-010770
+oval_def: 2915
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230384r1017193_rule
+Version: RHEL-08-020352
+oval_def: 2917
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244531r1017338_rule
+Version: RHEL-08-010731
+oval_def: 2918
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244532r1017339_rule
+Version: RHEL-08-010741
+oval_def: 2922
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230236r1017055_rule
+Version: RHEL-08-010151
+oval_def: 3000
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230532r1017294_rule
+Version: RHEL-08-040180
+oval_def: 3001
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-244523r1017329_rule
+Version: RHEL-08-010152
+oval_def: 3002
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-257258r1017375_rule
+Version: RHEL-08-020035
+oval_def: 3004
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230257r1017077_rule
+Version: RHEL-08-010300
+oval_def: 3100
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230258r1017078_rule
+Version: RHEL-08-010310
+oval_def: 3102
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230259r1017079_rule
+Version: RHEL-08-010320
+oval_def: 3103
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230326r1017137_rule
+Version: RHEL-08-010780
+oval_def: 3104
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230327r1017138_rule
+Version: RHEL-08-010790
+oval_def: 3105
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230331r1017143_rule
+Version: RHEL-08-020000
+oval_def: 3200
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230371r1017183_rule
+Version: RHEL-08-020240
+oval_def: 3201
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230373r1017185_rule
+Version: RHEL-08-020260
+oval_def: 3204
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230374r1017186_rule
+Version: RHEL-08-020270
+oval_def: 3205
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230379r1017190_rule
+Version: RHEL-08-020320
+oval_def: 3206
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230385r1017194_rule
+Version: RHEL-08-020353
+oval_def: 3207
+--------------------
+Rule ID: xccdf_mil.disa.stig_rule_SV-230534r1017296_rule
+Version: RHEL-08-040200
+oval_def: 3210
+--------------------
